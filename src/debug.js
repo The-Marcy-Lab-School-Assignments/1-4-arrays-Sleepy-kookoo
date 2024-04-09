@@ -4,7 +4,8 @@ const clearArr = (arr) => {
 };
 
 const getFirstItem = (array) => {
-  return array.shift();
+  let copyArray = [...array]
+  return copyArray[0]
 };
 
 module.exports = {
