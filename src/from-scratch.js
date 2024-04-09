@@ -38,12 +38,14 @@ const deleteFromMiddle = (arr) => {
   arr.splice(middle, 1)
   return arr
 };
-console.log(deleteFromMiddle[1, 2, 3, 4, 5])
+//console.log(deleteFromMiddle[1, 2, 3, 4, 5])
 
-const isRightIndex = () => {
+const isRightIndex = (arr, value, index) => {
 };
 
-const roundAllNumsDown = () => {
+const roundAllNumsDown = (arr) => {
+  const copyArr = [...arr];
+  copyArr.forEach(Math.floor)
 };
 
 const getAllYCoordinates = () => {
