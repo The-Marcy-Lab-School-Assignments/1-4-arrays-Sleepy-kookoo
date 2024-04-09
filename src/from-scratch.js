@@ -14,8 +14,14 @@ const reverseString = (str) => {
   return newStr
 };
 
-const newArrayFullOf = () => {
+const newArrayFullOf = (value, numOfValue) => {
+  let arr = [];
+  for (let i = 1; i <= numOfValue; i++) {
+    arr.push(value)
+  }
+  return arr
 };
+console.log(newArrayFullOf(3, 5))
 
 const insertIntoMiddle = () => {
 };
