@@ -21,11 +21,17 @@ const newArrayFullOf = (value, numOfValue) => {
   }
   return arr
 };
-console.log(newArrayFullOf(3, 5))
+//const arr = Array(numOfValue)
+//arr.fill(value, 0, numOfValue)
+//return arr;
+//console.log(newArrayFullOf(3, 5))
 
-const insertIntoMiddle = () => {
+const insertIntoMiddle = (arr, value) => {
+  const middle = Math.floor(arr.length / 2)
+  arr.splice(middle, 0, value)
+  return arr
 };
-
+console.log(insertIntoMiddle([1, 2, 3, 4, 5], 6))
 const deleteFromMiddle = () => {
 };
 
