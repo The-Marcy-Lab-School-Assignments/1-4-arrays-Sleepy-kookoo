@@ -41,7 +41,9 @@ const deleteFromMiddle = (arr) => {
 //console.log(deleteFromMiddle[1, 2, 3, 4, 5])
 
 const isRightIndex = (arr, value, index) => {
+  return arr.indexOf(value) === index;
 };
+console.log(isRightIndex(['a', 'b', 'c', 'd', 'e'], 'a', 0))
 
 const roundAllNumsDown = (arr) => {
   const copyArr = [...arr];
