@@ -43,13 +43,17 @@ const deleteFromMiddle = (arr) => {
 const isRightIndex = (arr, value, index) => {
   return arr.indexOf(value) === index;
 };
-console.log(isRightIndex(['a', 'b', 'c', 'd', 'e'], 'a', 0))
+//console.log(isRightIndex(['a', 'b', 'c', 'd', 'e'], 'a', 0))
 
 const roundAllNumsDown = (arr) => {
-  const copyArr = [...arr];
-  copyArr.forEach(Math.floor)
+  const newArr = [];
+  for (const num of arr) {
+    newArr.push(Math.floor(num))
+  }
+  return newArr
 };
 
+console.log(roundAllNumsDown([1.1, 2.2, 3.3]))
 const getAllYCoordinates = () => {
 };
 
