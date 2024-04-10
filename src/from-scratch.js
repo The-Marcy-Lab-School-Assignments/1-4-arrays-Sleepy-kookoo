@@ -53,9 +53,13 @@ const roundAllNumsDown = (arr) => {
   return newArr
 };
 
-console.log(roundAllNumsDown([1.1, 2.2, 3.3]))
-const getAllYCoordinates = () => {
+//console.log(roundAllNumsDown([1.1, 2.2, 3.3]))
+
+const getAllYCoordinates = (arrOfCoords) => {
+  return arrOfCoords.map(coord => coord[1])
 };
+
+console.log(getAllYCoordinates([[1, 2], [3, 4], [5, 6]]))
 
 module.exports = {
   addToFrontOrBack,
