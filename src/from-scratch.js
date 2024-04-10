@@ -59,7 +59,7 @@ const getAllYCoordinates = (arrOfCoords) => {
   return arrOfCoords.map(coord => coord[1])
 };
 
-console.log(getAllYCoordinates([[1, 2], [3, 4], [5, 6]]))
+//console.log(getAllYCoordinates([[1, 2], [3, 4], [5, 6]]))
 
 module.exports = {
   addToFrontOrBack,
