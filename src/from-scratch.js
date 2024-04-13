@@ -1,3 +1,4 @@
+/** FEEDBACK: Because conditional statement naturally will evaluate truthy or falsy, you do not need to set it equal to true! */
 const addToFrontOrBack = (arr, value, isFront) => {
   if (isFront == true) {
     return arr.unshift(value)
