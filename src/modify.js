@@ -5,10 +5,6 @@ const uppercaseAll = (...words) => {
     arr.push(letters.toUpperCase())
   };
   return arr
-  //   word1.toUpperCase(),
-  //   word2.toUpperCase(),
-  //   word3.toUpperCase(),
-  // ];
 };
 
 const destructureCoordinates = (coordinates) => {
